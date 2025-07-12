@@ -23,7 +23,7 @@ function populateForm(employee) {
   document.getElementById("form-title").innerText = "Edit Employee";
 }
 
-// Pre-fill form if editing
+
 if (editId) {
   const emp = mockEmployees.find(e => e.id == editId);
   if (emp) populateForm(emp);
@@ -71,7 +71,7 @@ form.addEventListener("submit", function (e) {
   window.location.href = "index.html";
 });
 
-// Cancel button just abandons changes and returns
+
 cancelBtn.addEventListener("click", () => {
   window.location.href = "index.html";
 });

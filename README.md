@@ -19,19 +19,24 @@ A responsive web interface that allows users to view, add, edit, delete, filter,
 
 
 📂 Folder Structure
-src/
-├── main/
-│   ├── resources/
-│   │   ├── static/
-│   │   │   ├── css/
-│   │   │   │   └── style.css
-│   │   │   ├── js/
-│   │   │   │   ├── app.js
-│   │   │   │   ├── form.js
-│   │   │   │   └── data.js
-│   │   ├── templates/
-│   │   │   ├── dashboard.ftlh
-│   │   │   └── add-edit-form.ftlh
+Employeep-directory/
+|──src/
+| ├── main/
+| │   ├── resources/
+| │   │   ├── static/
+| │   │   │   ├── css/
+| │   │   │   │   └── style.css
+| │   │   │   ├── js/
+| │   │   │   │   ├── app.js
+| │   │   │   │   ├── form.js
+| │   │   │   │   └── data.js
+| │   │   ├── templates/
+| │   │   │   ├── dashboard.ftlh
+| │   │   │   └── add-edit-form.ftlh
+|──index.html
+|──form.html
+|──vercel.json
+|──README.md
 
 
 
