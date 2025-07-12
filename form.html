@@ -2,41 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Add/Edit Employee</title>
+  <title>Add Employee</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="static/css/style.css" />
 </head>
 <body>
-  <section id="form-container">
-    <h2 id="form-title">Add / Edit Employee</h2>
-    <form id="employee-form">
+  <div class="form-card">
+    <h2>Add Employee</h2>
+    <form id="addEmployeeForm" novalidate>
       <input type="hidden" id="employeeId" />
 
-      <label>First Name:</label>
-      <input type="text" id="firstName" required />
-      <span class="error-msg"></span>
+      <div class="form-group">
+        <label for="firstName">First name</label>
+        <input type="text" id="firstName" />
+        <span class="error-msg"></span>
+      </div>
 
-      <label>Last Name:</label>
-      <input type="text" id="lastName" required />
-      <span class="error-msg"></span>
+      <div class="form-group">
+        <label for="lastName">Last name</label>
+        <input type="text" id="lastName" />
+        <span class="error-msg"></span>
+      </div>
 
-      <label>Email:</label>
-      <input type="email" id="email" required />
-      <span class="error-msg"></span>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+        <span class="error-msg"></span>
+      </div>
 
-      <label>Department:</label>
-      <input type="text" id="department" required />
-      <span class="error-msg"></span>
+      <div class="form-group">
+        <label for="department">Department</label>
+        <input type="text" id="department" />
+        <span class="error-msg"></span>
+      </div>
 
-      <label>Role:</label>
-      <input type="text" id="role" required />
-      <span class="error-msg"></span>
+      <div class="form-group">
+        <label for="role">Role</label>
+        <input type="text" id="role" />
+        <span class="error-msg"></span>
+      </div>
 
       <div class="form-actions">
-        <button type="submit">Save</button>
-        <button type="button" id="cancelBtn">Cancel</button>
+        <button type="button" class="cancel-btn" id="cancelBtn">Cancel</button>
+        <button type="submit" class="add-btn">Add</button>
       </div>
     </form>
-  </section>
+  </div>
 
   <script src="static/js/data.js"></script>
   <script src="static/js/form.js"></script>

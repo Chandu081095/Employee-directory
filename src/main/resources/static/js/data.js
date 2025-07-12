@@ -1,4 +1,4 @@
 const mockEmployees = [
-  { id: 1, firstName: "Anjali", lastName: "Mehta", email: "anjali@company.com", department: "HR", role: "Manager" },
-  { id: 2, firstName: "Rohan", lastName: "Verma", email: "rohan@company.com", department: "Engineering", role: "Developer" }
+  { id: 1, firstName: "Aarav", lastName: "Kumar", email: "aarav@example.com", department: "HR", role: "Manager" },
+  { id: 2, firstName: "Neha", lastName: "Sharma", email: "neha@example.com", department: "Engineering", role: "Developer" }
 ];
