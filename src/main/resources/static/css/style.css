@@ -1,0 +1,6 @@
+body { font-family: sans-serif; margin: 2rem; background-color: #f4f4f4; }
+.employee-card { background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 1rem; }
+#form-container { max-width: 500px; margin: auto; background: #fff; padding: 2rem; border-radius: 8px; }
+input { display: block; width: 100%; padding: 0.5rem; margin: 0.25rem 0; }
+.error-msg { color: red; font-size: 0.85rem; }
+button { margin-right: 0.5rem; padding: 0.5rem 1rem; cursor: pointer; }
