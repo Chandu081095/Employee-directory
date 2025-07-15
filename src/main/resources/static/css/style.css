@@ -11,7 +11,8 @@ body {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  text-align: center;
+  align-items:center;
+  justify-content:center;
 }
 
 #employee-list-container {
